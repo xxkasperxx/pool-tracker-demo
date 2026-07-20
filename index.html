@@ -18,8 +18,7 @@
   }
   *{box-sizing:border-box}
   html,body{margin:0;padding:0}
-  body{font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;color:var(--ink);
-    background:var(--paper);line-height:1.55;-webkit-font-smoothing:antialiased}
+  body{font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;color:var(--ink);background:var(--paper);line-height:1.55;-webkit-font-smoothing:antialiased}
   h1,h2,h3,.disp{font-family:'Fraunces',Georgia,serif;font-weight:600;color:var(--navy);margin:0;letter-spacing:-.01em}
   .wrap{max-width:1080px;margin:0 auto;padding:0 20px}
   .eyebrow{font-family:'Inter';font-weight:600;font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--brass-d)}
@@ -29,15 +28,13 @@
   .nav{position:sticky;top:0;z-index:40;background:rgba(245,242,236,.85);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
   .nav-in{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:13px 20px;max-width:1080px;margin:0 auto}
   .logo{display:flex;align-items:center;gap:12px;text-decoration:none}
-  .logo .mark{width:42px;height:42px;border-radius:12px;background:linear-gradient(150deg,var(--navy),var(--aqua-d));
-    display:flex;align-items:center;justify-content:center;box-shadow:var(--shadow-sm)}
+  .logo .mark{width:42px;height:42px;border-radius:12px;background:linear-gradient(150deg,var(--navy),var(--aqua-d));display:flex;align-items:center;justify-content:center;box-shadow:var(--shadow-sm)}
   .logo .mark svg{width:23px;height:23px}
   .logo .wm{line-height:1.15}
   .logo .wm b{font-family:'Fraunces';font-weight:600;color:var(--navy);font-size:20px;display:block;letter-spacing:-.01em}
   .logo .wm span{font-size:10px;letter-spacing:.22em;color:var(--faint);text-transform:uppercase;font-weight:600}
   .seg{display:flex;background:#fff;border:1px solid var(--line);border-radius:999px;padding:4px;gap:2px;box-shadow:var(--shadow-sm)}
-  .seg button{border:0;background:transparent;color:var(--muted);font-weight:600;font-size:13px;font-family:'Inter';
-    padding:8px 16px;border-radius:999px;cursor:pointer;transition:.18s;white-space:nowrap}
+  .seg button{border:0;background:transparent;color:var(--muted);font-weight:600;font-size:13px;font-family:'Inter';padding:8px 16px;border-radius:999px;cursor:pointer;transition:.18s;white-space:nowrap}
   .seg button.active{background:var(--navy);color:#fff}
   .demo-chip{font-size:10px;font-weight:700;letter-spacing:.12em;color:var(--faint);border:1px solid var(--line);border-radius:6px;padding:4px 8px;background:#fff}
 
@@ -45,14 +42,12 @@
   .view.active{display:block;animation:vfade .4s ease}
   @keyframes vfade{from{opacity:0}to{opacity:1}}
 
-  /* CUSTOMER */
   .subbar{display:flex;align-items:center;gap:10px;color:var(--muted);font-size:12.5px;padding:14px 0 2px}
   .subbar .pill{background:#fff;border:1px solid var(--line);border-radius:999px;padding:6px 13px;display:flex;align-items:center;gap:7px;box-shadow:var(--shadow-sm)}
   .subbar .u{color:var(--ink)} .subbar .lock{color:var(--good);font-size:11px}
   .subbar .back{margin-left:auto;color:var(--aqua-d);font-weight:600;cursor:pointer}
 
-  .hero{position:relative;border-radius:22px;overflow:hidden;margin-top:12px;min-height:352px;
-    background:linear-gradient(145deg,var(--deep),var(--navy) 60%,var(--aqua-d));box-shadow:var(--shadow);isolation:isolate}
+  .hero{position:relative;border-radius:22px;overflow:hidden;margin-top:12px;min-height:352px;background:linear-gradient(145deg,var(--deep),var(--navy) 60%,var(--aqua-d));box-shadow:var(--shadow);isolation:isolate}
   .hero .photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.5;z-index:-2;animation:kb 20s ease-in-out infinite alternate}
   @keyframes kb{from{transform:scale(1.04)}to{transform:scale(1.13)}}
   .hero .scrim{position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(7,28,39,.30),rgba(7,28,39,.88))}
@@ -61,7 +56,7 @@
   .hero .greet{font-size:14px;opacity:.9;font-weight:500}
   .hero .eyebrow{color:#e6c489}
   .hero h1{color:#fff;font-size:41px;line-height:1.04;margin:7px 0 6px;font-weight:600}
-  .hero .blurb{opacity:.93;font-size:15px;max-width:58ch;font-family:'Inter'}
+  .hero .blurb{opacity:.93;font-size:15px;max-width:58ch}
   .hero .cta{display:inline-flex;align-items:center;gap:9px;margin-top:18px;background:var(--brass);color:#3a2a08;font-weight:600;font-size:13.5px;padding:11px 18px;border-radius:10px;width:max-content}
   .hero .cta svg{width:16px;height:16px}
   .hbar{position:absolute;top:0;left:0;right:0;height:7px;background:rgba(255,255,255,.15);z-index:1}
@@ -107,7 +102,6 @@
   .cfoot{text-align:center;color:var(--muted);font-size:13px;margin:24px 0 46px}
   .cfoot b{color:var(--navy);font-family:'Fraunces';font-weight:600}
 
-  /* OWNER */
   .ohead{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;margin:24px 0 16px;flex-wrap:wrap}
   .ohead h2{font-size:28px}
   .ohead .lead{color:var(--muted);font-size:14px;margin-top:3px}
@@ -141,14 +135,13 @@
   .obtns button{flex:1;border:0;border-radius:10px;padding:10px;font-weight:600;font-size:12.5px;cursor:pointer;font-family:'Inter';transition:.16s}
   .b-primary{background:var(--navy);color:#fff}.b-primary:hover{background:#0a2e42}
   .b-ghost{background:#eef4f4;color:var(--navy);border:1px solid var(--line2)}.b-ghost:hover{background:#e3eded}
-  .miniacts{display:flex;gap:6px;border-top:1px solid #f1ece2;padding-top:11px;margin-top:1px}
+  .miniacts{display:flex;gap:6px;border-top:1px solid #f1ece2;padding-top:11px}
   .miniacts button{flex:1;border:1px solid var(--line);background:#fff;color:var(--muted);border-radius:9px;padding:8px 4px;font-size:11.5px;font-weight:600;font-family:'Inter';cursor:pointer;transition:.15s;display:flex;align-items:center;justify-content:center;gap:5px}
   .miniacts button:hover{border-color:var(--brass);color:var(--navy)}
   .miniacts button:disabled{opacity:.4;cursor:not-allowed}
   .miniacts svg{width:13px;height:13px}
   .onote{font-size:12px;color:var(--muted);text-align:center;margin:24px 0 42px}
 
-  /* modals */
   .modal{position:fixed;inset:0;background:rgba(7,28,39,.55);display:none;align-items:center;justify-content:center;z-index:60;padding:20px}
   .modal.show{display:flex;animation:vfade .2s}
   .phone{width:300px;background:#0a1015;border-radius:36px;padding:12px;box-shadow:0 26px 70px rgba(0,0,0,.45);border:2px solid #232d35}
@@ -161,18 +154,31 @@
   .psend{color:#7f93a1;font-size:10.5px;text-align:center;padding:8px}
   .closex{display:block;margin:14px auto 0;background:#fff;border:0;border-radius:11px;padding:10px 20px;font-weight:600;cursor:pointer;color:var(--navy);font-family:'Inter'}
 
-  .form{width:440px;max-width:100%;background:#fff;border-radius:20px;padding:24px;box-shadow:var(--shadow)}
-  .form h3{font-size:20px;margin-bottom:3px}
-  .form .sub{color:var(--muted);font-size:12.5px;margin-bottom:18px}
+  .form,.cal{width:440px;max-width:100%;background:#fff;border-radius:20px;padding:24px;box-shadow:var(--shadow)}
+  .cal{width:380px}
+  .form h3,.cal h3{font-size:20px;margin-bottom:3px}
+  .form .sub,.cal .calsub{color:var(--muted);font-size:12.5px;margin-bottom:18px}
   .form label{display:block;font-size:11.5px;font-weight:600;color:var(--navy);text-transform:uppercase;letter-spacing:.06em;margin:12px 0 5px}
   .form input,.form select{width:100%;border:1px solid var(--line);border-radius:10px;padding:10px 12px;font-size:13.5px;font-family:'Inter';color:var(--ink);background:#fff}
   .form input:focus,.form select:focus{outline:none;border-color:var(--aqua-d);box-shadow:0 0 0 3px rgba(43,179,192,.14)}
   .form .two{display:grid;grid-template-columns:1fr 1fr;gap:12px}
-  .form .foot{display:flex;gap:10px;justify-content:flex-end;margin-top:22px}
-  .form .foot button{border:0;border-radius:10px;padding:11px 18px;font-weight:600;font-size:13px;cursor:pointer;font-family:'Inter'}
-  .form .cancel{background:#eef2f2;color:var(--navy)}
-  .form .save{background:var(--navy);color:#fff}
-  .form .save:hover{background:#0a2e42}
+  .form .foot,.cal .calfoot{display:flex;gap:10px;justify-content:flex-end;margin-top:20px;align-items:center}
+  .form .foot button,.cal .calfoot button{border:0;border-radius:10px;padding:11px 18px;font-weight:600;font-size:13px;cursor:pointer;font-family:'Inter'}
+  .cancel{background:#eef2f2;color:var(--navy)}
+  .save{background:var(--navy);color:#fff}.save:hover{background:#0a2e42}
+
+  .calnav{display:flex;align-items:center;justify-content:space-between;margin-bottom:10px}
+  .calnav b{font-family:'Fraunces';font-size:16px;color:var(--navy)}
+  .calnav button{width:32px;height:32px;border-radius:9px;border:1px solid var(--line);background:#fff;color:var(--navy);font-size:16px;cursor:pointer;line-height:1}
+  .calnav button:hover{border-color:var(--brass)}
+  .calgrid{display:grid;grid-template-columns:repeat(7,1fr);gap:5px}
+  .cwk{text-align:center;font-size:10px;font-weight:700;color:var(--faint);text-transform:uppercase;padding-bottom:4px}
+  .cday{aspect-ratio:1;display:flex;align-items:center;justify-content:center;border-radius:9px;font-size:13px;cursor:pointer;color:var(--ink);border:1px solid transparent;transition:.12s;user-select:none}
+  .cday:hover{background:#f4f1ea;border-color:var(--line)}
+  .cday.today{border-color:var(--aqua-d);color:var(--aqua-d);font-weight:700}
+  .cday.sel{background:var(--brass);color:#fff;font-weight:700;border-color:var(--brass)}
+  .cday.sel.today{color:#fff}
+  .calfoot .calcount{margin-right:auto;font-size:12.5px;color:var(--muted);font-weight:600}
 
   .toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%) translateY(30px);background:var(--navy);color:#fff;padding:13px 20px;border-radius:12px;font-size:13.5px;font-weight:500;box-shadow:var(--shadow);opacity:0;transition:.35s;z-index:70;max-width:90vw}
   .toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
@@ -217,7 +223,7 @@
       </div>
     </div>
     <div class="grid" id="board"></div>
-    <div class="onote">Working demo on sample data: 4 real past jobs placed at different stages. Every action here (advance, rain delay, edit, new build) is what would drive the homeowner's page and texts on the live version.</div>
+    <div class="onote">Working demo on sample data: 4 real past jobs placed at different stages. Every action here (advance, rain days, edit, new build) is what would drive the homeowner's page and texts on the live version.</div>
   </section>
 </div>
 
@@ -241,15 +247,20 @@
     <div><label>Pool</label><input id="fPool" placeholder="e.g. Freeform Gunite"></div>
     <div><label>Spa</label><input id="fSpa" placeholder="e.g. Raised spa"></div>
   </div>
-  <div class="two">
-    <div><label>Current stage</label><select id="fStage"></select></div>
-    <div><label>Rain days</label><input id="fRain" type="number" min="0" value="0"></div>
-  </div>
+  <label>Current stage</label><select id="fStage"></select>
   <label>Needs next</label><input id="fNeeds" placeholder="e.g. Schedule excavation">
   <div class="foot">
     <button class="cancel" onclick="closeForm()">Cancel</button>
     <button class="save" id="formSave" onclick="saveForm()">Save</button>
   </div>
+</div></div>
+
+<div class="modal" id="calModal"><div class="cal">
+  <h3>Log rain days</h3>
+  <div class="calsub" id="calSub">Pick the days weather pushed the build.</div>
+  <div class="calnav"><button onclick="calShift(-1)">&lsaquo;</button><b id="calMonthLbl"></b><button onclick="calShift(1)">&rsaquo;</button></div>
+  <div class="calgrid" id="calGrid"></div>
+  <div class="calfoot"><span class="calcount" id="calCount"></span><button class="cancel" onclick="closeCal()">Cancel</button><button class="save" onclick="saveRain()">Save rain days</button></div>
 </div></div>
 
 <div class="toast" id="toast"></div>
@@ -294,29 +305,33 @@ var SMS={
  startup:"Almost swim time. Start-up and pool school are set for {date}. We'll walk you through everything.",
  complete:"Dive in, your pool is officially all yours. It's been a joy building for you. Pools by Design"
 };
-function rainSms(job){var d=stageDates(job);return "Quick update: a couple of rain days pushed things slightly, so your estimated completion is now "+fmt(completion(job))+". We never pour on wet ground, so thank you for your patience!";}
+function rainSms(job){return "Quick update: weather pushed a few work days, so your estimated completion is now "+fmt(completion(job))+". We never pour on wet ground, so thank you for your patience!";}
 var JOBS=[
  {id:'ayala',slug:'ayala',cust:'Jose & Maria Ayala',addr:'Spring, TX',
   specs:{'Pool':'338 sq ft Gunite','Spa':'6×8 Rectangle, level','Interior':'Pebble Sheen L1','Coping':'Travertine','Decking':'491 sq ft Spray Deck','Features':'Sheer descents · 28 ft feature wall'},
-  stage:4,rain:2,needs:'Gunite crew, confirm Tuesday AM',photo:0},
+  stage:4,rainDates:['2026-07-08','2026-07-15'],needs:'Gunite crew, confirm Tuesday AM',photo:0},
  {id:'benton',slug:'benton',cust:'The Benton Family',addr:'Montgomery, TX',
   specs:{'Pool':'Freeform Gunite','Spa':'Raised spa w/ spillway','Interior':'Pebble Sheen L2','Decking':'Broom-finish concrete','Features':'Tanning ledge'},
-  stage:1,rain:0,needs:'Permit submitted, awaiting county',photo:1},
+  stage:1,rainDates:[],needs:'Permit submitted, awaiting county',photo:1},
  {id:'lyons',slug:'lyons',cust:'The Lyons Family',addr:'The Woodlands, TX',
   specs:{'Pool':'Rectangle Gunite','Spa':'Raised 18"','Interior':'Pebble Sheen L1','Coping':'Travertine','Decking':'Travertine (change order)'},
-  stage:5,rain:1,needs:'Coping install, material on site',photo:2},
+  stage:5,rainDates:['2026-07-11'],needs:'Coping install, material on site',photo:2},
  {id:'mizell',slug:'mizell',cust:'The Mizell Family',addr:'Conroe, TX',
   specs:{'Pool':'Freeform Gunite','Spa':'Spa w/ sheer descents','Interior':'Pebble Sheen L2','Decking':'Spray deck','Features':'Sun shelf'},
-  stage:6,rain:3,needs:'Plaster Thu, send fill instructions',photo:3}
+  stage:6,rainDates:['2026-07-05','2026-07-12','2026-07-16'],needs:'Plaster Thu, send fill instructions',photo:3}
 ];
 var uid=100;
 
 function addDays(d,n){var x=new Date(d);x.setDate(x.getDate()+n);return x;}
 function fmt(d){return d.toLocaleDateString('en-US',{month:'short',day:'numeric'});}
+function pad(n){return (n<10?'0':'')+n;}
+function isoOf(y,m,d){return y+'-'+pad(m+1)+'-'+pad(d);}
+function fmtISO(k){var p=k.split('-');return fmt(new Date(+p[0],+p[1]-1,+p[2]));}
+function rainCount(job){return job.rainDates?job.rainDates.length:0;}
 function stageDates(job){
   var before=0;for(var i=0;i<job.stage;i++)before+=STAGES[i].d;
-  var cur=addDays(DEMO_TODAY,-before);var out=[];
-  for(var i=0;i<STAGES.length;i++){var sh=(i>job.stage?job.rain:0);out.push(addDays(cur,sh));cur=addDays(cur,STAGES[i].d);}
+  var cur=addDays(DEMO_TODAY,-before);var out=[];var rc=rainCount(job);
+  for(var i=0;i<STAGES.length;i++){var sh=(i>job.stage?rc:0);out.push(addDays(cur,sh));cur=addDays(cur,STAGES[i].d);}
   return out;
 }
 function pct(job){return Math.round((job.stage/(STAGES.length-1))*100);}
@@ -327,7 +342,7 @@ function jobById(id){return JOBS.filter(function(j){return j.id===id})[0];}
 var currentJob='ayala';
 function buildCustomer(job){
   currentJob=job.id;document.getElementById('slug').textContent=job.slug;
-  var st=STAGES[job.stage],ds=stageDates(job),fn=job.cust.split(' ')[0],p=pct(job);
+  var st=STAGES[job.stage],ds=stageDates(job),fn=job.cust.split(' ')[0],p=pct(job),rc=rainCount(job);
   var h='';
   h+='<div class="hero reveal">'+imgTag(PHOTO.hero,'photo')+'<div class="scrim"></div><div class="hbar"><i id="herobar"></i></div>'+
       '<div class="inner"><div class="topline"><div><div class="eyebrow">Your build &middot; live status</div></div>'+
@@ -336,7 +351,10 @@ function buildCustomer(job){
       (job.stage<STAGES.length-1?'<div class="cta">'+ICON.cal+'Estimated completion: '+fmt(completion(job))+'</div>':'<div class="cta">'+ICON.check+'Your pool is complete</div>')+
       '</div></div>';
   h+='<div class="cred">Award-winning custom pools &middot; Houston &amp; The Woodlands &middot; <b>Family-owned, 25 years</b></div>';
-  if(job.rain>0&&job.stage<STAGES.length-1) h+='<div class="rain reveal">'+ICON.rain+'<div>We had <b>'+job.rain+' rain day'+(job.rain>1?'s':'')+'</b> recently, so your timeline shifted slightly. Thank you for your patience. We never pour on wet ground.</div></div>';
+  if(rc>0&&job.stage<STAGES.length-1){
+    var ds2=job.rainDates.slice().sort();var shown=ds2.slice(0,3).map(fmtISO).join(', ')+(ds2.length>3?'…':'');
+    h+='<div class="rain reveal">'+ICON.rain+'<div>We had <b>'+rc+' rain day'+(rc>1?'s':'')+'</b> ('+shown+'), so your timeline shifted slightly. Thank you for your patience. We never pour on wet ground.</div></div>';
+  }
   h+='<div class="cols"><div class="panel reveal"><h3>Your build timeline</h3><div class="lead">Every step, start to swim.</div><div class="tl"><div class="rail"></div><div class="rail-fill" id="railfill" style="height:0"></div>';
   STAGES.forEach(function(s,i){
     var cls=i<job.stage?'done':(i===job.stage?'current':'upcoming');
@@ -367,27 +385,26 @@ function fb(t){var m=document.getElementById('fbmsg');
 function renderBoard(){
   var b=document.getElementById('board');b.innerHTML='';
   JOBS.forEach(function(job){
-    var st=STAGES[job.stage],el=document.createElement('div');el.className='job reveal';
+    var st=STAGES[job.stage],rc=rainCount(job),el=document.createElement('div');el.className='job reveal';
     el.innerHTML=
      '<div class="cover">'+imgTag(job.photo!=null?PHOTO.g[job.photo]:'','')+'<div class="scr"></div>'+
         '<div class="stg">'+st.name+'</div><div class="nmover"><b>'+job.cust+'</b><span>'+job.addr+'</span></div></div>'+
      '<div class="pad"><div class="spec">'+(job.specs['Pool']||'Custom pool')+' &nbsp;&middot;&nbsp; '+(job.specs['Spa']||'')+'</div>'+
        '<div class="bar"><i style="width:'+pct(job)+'%"></i></div>'+
-       '<div class="meta"><span>'+pct(job)+'% complete</span><span>Est. finish '+fmt(completion(job))+(job.rain?' &middot; +'+job.rain+'d rain':'')+'</span></div>'+
+       '<div class="meta"><span>'+pct(job)+'% complete</span><span>Est. finish '+fmt(completion(job))+(rc?' &middot; +'+rc+'d rain':'')+'</span></div>'+
        '<div class="needs"><b>Needs next:</b> '+job.needs+'</div>'+
        '<div class="obtns"><button class="b-ghost" onclick="openCust(\''+job.id+'\')">Homeowner page</button>'+
          (job.stage<STAGES.length-1?'<button class="b-primary" onclick="advance(\''+job.id+'\')">Advance stage &rarr;</button>':'<button class="b-primary" disabled style="opacity:.5">Complete</button>')+'</div>'+
        '<div class="miniacts">'+
-         '<button onclick="addRain(\''+job.id+'\')">'+ICON.rainm+'Rain day</button>'+
+         '<button onclick="openRainCal(\''+job.id+'\')">'+ICON.rainm+'Rain days'+(rc?' ('+rc+')':'')+'</button>'+
          '<button onclick="pushBack(\''+job.id+'\')"'+(job.stage===0?' disabled':'')+'>'+ICON.backi+'Back</button>'+
          '<button onclick="openForm(\'edit\',\''+job.id+'\')">'+ICON.edit+'Edit</button>'+
-       '</div>'+
-     '</div>';
+       '</div></div>';
     b.appendChild(el);
   });
   var active=JOBS.filter(function(j){return j.stage<STAGES.length-1}).length;
   var perm=JOBS.filter(function(j){return STAGES[j.stage].key==='permit'}).length;
-  var flag=JOBS.filter(function(j){return j.rain>=2}).length;
+  var flag=JOBS.filter(function(j){return rainCount(j)>=2}).length;
   document.getElementById('kpis').innerHTML=
     '<div class="kpi"><b>'+active+'</b><span>Active builds</span></div><div class="kpi"><b>'+perm+'</b><span>In permitting</span></div><div class="kpi"><b>'+flag+'</b><span>Weather-flagged</span></div>';
   requestAnimationFrame(revealAll);
@@ -399,17 +416,44 @@ function advance(id){
   var msg=(SMS[ns.key]||('Update: your pool moved to '+ns.name+'.')).replace('{date}',fmt(ds[job.stage]));
   showSms(job.cust.split(' ')[0],msg);toast(ns.name+': text sent to '+job.cust);
 }
-function addRain(id){
-  var job=jobById(id);if(job.stage>=STAGES.length-1)return;
-  job.rain++;renderBoard();
-  showSms(job.cust.split(' ')[0],rainSms(job));toast('Rain day added, timeline updated and homeowner notified');
-}
 function pushBack(id){
   var job=jobById(id);if(job.stage<=0)return;
   job.stage--;job.needs='Stage moved back by the team';renderBoard();
   toast('Moved back to '+STAGES[job.stage].name+', homeowner page updated');
 }
 function openCust(id){buildCustomer(jobById(id));setView('customer');}
+
+/* rain calendar */
+var calId=null,calY=2026,calM=6,calSel={};
+function openRainCal(id){
+  var job=jobById(id);calId=id;calSel={};(job.rainDates||[]).forEach(function(d){calSel[d]=1;});
+  calY=DEMO_TODAY.getFullYear();calM=DEMO_TODAY.getMonth();
+  document.getElementById('calSub').textContent='Mark the days weather pushed '+job.cust+'\'s build. The timeline and the homeowner\'s date update automatically.';
+  renderCal();document.getElementById('calModal').classList.add('show');
+}
+function calShift(n){calM+=n;if(calM<0){calM=11;calY--;}if(calM>11){calM=0;calY++;}renderCal();}
+function renderCal(){
+  var months=['January','February','March','April','May','June','July','August','September','October','November','December'];
+  document.getElementById('calMonthLbl').textContent=months[calM]+' '+calY;
+  var first=new Date(calY,calM,1).getDay(),days=new Date(calY,calM+1,0).getDate(),g='';
+  ['S','M','T','W','T','F','S'].forEach(function(w){g+='<div class="cwk">'+w+'</div>';});
+  for(var i=0;i<first;i++)g+='<div></div>';
+  for(var d=1;d<=days;d++){var k=isoOf(calY,calM,d);
+    var sel=calSel[k]?' sel':'';
+    var today=(calY===DEMO_TODAY.getFullYear()&&calM===DEMO_TODAY.getMonth()&&d===DEMO_TODAY.getDate())?' today':'';
+    g+='<div class="cday'+sel+today+'" onclick="calToggle(\''+k+'\')">'+d+'</div>';}
+  document.getElementById('calGrid').innerHTML=g;
+  var n=Object.keys(calSel).length;document.getElementById('calCount').textContent=n+' rain day'+(n===1?'':'s')+' selected';
+}
+function calToggle(k){if(calSel[k])delete calSel[k];else calSel[k]=1;renderCal();}
+function closeCal(){document.getElementById('calModal').classList.remove('show');}
+function saveRain(){
+  var job=jobById(calId),before=rainCount(job);
+  job.rainDates=Object.keys(calSel).sort();closeCal();renderBoard();
+  var now=job.rainDates.length;
+  if(now>before&&job.stage<STAGES.length-1){showSms(job.cust.split(' ')[0],rainSms(job));toast('Logged '+now+' rain day'+(now===1?'':'s')+', timeline updated and homeowner notified');}
+  else toast('Rain days updated for '+job.cust);
+}
 
 /* create / edit */
 var editingId=null;
@@ -420,17 +464,17 @@ function openForm(mode,id){
   if(mode==='edit'){
     var j=jobById(id);
     document.getElementById('formTitle').textContent='Edit build';
-    document.getElementById('formSub').textContent='Update this client and their build details.';
+    document.getElementById('formSub').textContent='Update this client and their build details. (Rain days are managed with the Rain days calendar.)';
     document.getElementById('formSave').textContent='Save changes';
     document.getElementById('fCust').value=j.cust;document.getElementById('fAddr').value=j.addr;
     document.getElementById('fPool').value=j.specs['Pool']||'';document.getElementById('fSpa').value=j.specs['Spa']||'';
-    document.getElementById('fStage').value=j.stage;document.getElementById('fRain').value=j.rain;document.getElementById('fNeeds').value=j.needs;
+    document.getElementById('fStage').value=j.stage;document.getElementById('fNeeds').value=j.needs;
   }else{
     document.getElementById('formTitle').textContent='New build';
     document.getElementById('formSub').textContent='Add a client and start tracking their build.';
     document.getElementById('formSave').textContent='Create build';
     ['fCust','fAddr','fPool','fSpa','fNeeds'].forEach(function(x){document.getElementById(x).value='';});
-    document.getElementById('fStage').value=0;document.getElementById('fRain').value=0;
+    document.getElementById('fStage').value=0;
   }
   document.getElementById('formModal').classList.add('show');
 }
@@ -441,16 +485,13 @@ function saveForm(){
   var pool=document.getElementById('fPool').value.trim()||'Custom Gunite';
   var spa=document.getElementById('fSpa').value.trim();
   var stage=parseInt(document.getElementById('fStage').value,10)||0;
-  var rain=Math.max(0,parseInt(document.getElementById('fRain').value,10)||0);
   var needs=document.getElementById('fNeeds').value.trim()||'Kick off next step';
   if(editingId){
-    var j=jobById(editingId);
-    j.cust=cust;j.addr=addr;j.specs['Pool']=pool;j.specs['Spa']=spa;j.stage=stage;j.rain=rain;j.needs=needs;
+    var j=jobById(editingId);j.cust=cust;j.addr=addr;j.specs['Pool']=pool;j.specs['Spa']=spa;j.stage=stage;j.needs=needs;
     closeForm();renderBoard();toast('Saved changes to '+cust);
   }else{
-    uid++;
-    var slug=cust.toLowerCase().replace(/[^a-z ]/g,'').split(' ').filter(Boolean).pop()||('client'+uid);
-    JOBS.unshift({id:'j'+uid,slug:slug,cust:cust,addr:addr,specs:{'Pool':pool,'Spa':spa},stage:stage,rain:rain,needs:needs,photo:uid%4});
+    uid++;var slug=cust.toLowerCase().replace(/[^a-z ]/g,'').split(' ').filter(Boolean).pop()||('client'+uid);
+    JOBS.unshift({id:'j'+uid,slug:slug,cust:cust,addr:addr,specs:{'Pool':pool,'Spa':spa},stage:stage,rainDates:[],needs:needs,photo:uid%4});
     closeForm();renderBoard();toast(cust+' added to Active Builds');
   }
 }
@@ -467,6 +508,7 @@ function showSms(n,t){document.getElementById('smsName').textContent='To '+n;doc
 function closeSms(){document.getElementById('sms').classList.remove('show');}
 document.getElementById('sms').addEventListener('click',function(e){if(e.target===this)closeSms();});
 document.getElementById('formModal').addEventListener('click',function(e){if(e.target===this)closeForm();});
+document.getElementById('calModal').addEventListener('click',function(e){if(e.target===this)closeCal();});
 var tt;function toast(m){var t=document.getElementById('toast');t.textContent=m;t.classList.add('show');clearTimeout(tt);tt=setTimeout(function(){t.classList.remove('show')},3200);}
 
 buildCustomer(JOBS[0]);renderBoard();
